@@ -1,0 +1,67 @@
+/* pages/sign_in/sign_in.wxss */
+.sign_in{
+  display: flex;
+  flex-direction: column;
+}
+.in_draw{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10rpx;
+}
+.in_draw text{
+  font-size: 12px;
+  display: inline-block;
+  padding: 8rpx 25rpx;
+  border-radius: 50rpx;
+}
+.in_draw .exchange{
+  border: 1rpx solid #bbb;
+  color: #bbb;
+}
+.in_draw .draw{
+  background: #ADFF2F;
+  color: #fff;
+}
+.img{
+  width: 100%;
+  height: 550rpx;
+}
+
+.week{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.week text{
+  margin-bottom: 10rpx;
+}
+.reward{
+  font-size: 12px;
+  color: red;
+}
+.data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.spot{
+  border: 18rpx solid #bbb;
+  border-radius: 50%;
+}
+.sunday{
+  font-size: 16px;
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  margin: 0 100rpx;
+  border-radius: 10rpx;
+  padding: 10rpx 50rpx;
+  background: #FFD524;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.check{
+  background: #ccc;
+}

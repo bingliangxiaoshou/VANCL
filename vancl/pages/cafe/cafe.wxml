@@ -1,0 +1,9 @@
+<!--pages/cafe/cafe.wxml-->
+<view class='cafe'>
+  <image class='tips' src='{{iconlist[2].img_url}}'></image>
+  <view class='user'>
+    <image src='{{userlist[0].img_url}}'></image>
+    <text>{{userlist[0].uname}}的掌上咖啡馆</text>
+  </view>
+  <text class='my_cafe'>我的咖啡馆</text>
+</view>

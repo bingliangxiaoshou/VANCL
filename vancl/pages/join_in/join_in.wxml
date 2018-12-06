@@ -1,0 +1,2 @@
+<!--pages/join_in/join_in.wxml-->
+<image class='join' src='http://127.0.0.1:3000/img/bg_img/join.png'></image>

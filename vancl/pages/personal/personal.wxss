@@ -1,0 +1,139 @@
+/* pages/personal/personal.wxss */
+/* 卡片 */
+.personal{
+  padding: 10rpx;
+}
+.personal .personal_item{
+  background: url(http://wx3.sinaimg.cn/mw690/b192cd5egy1fxup8c3n93j20sm0fu7wi.jpg) no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 400rpx;
+}
+.personal .vip_type{
+  display: flex;
+  justify-content: space-between;
+}
+.vip_type text,.sign_in{
+  font-size: 14px;
+}
+.vip_type .vip{
+  padding-top: 12rpx;
+  color: #444;
+  position: absolute;
+  top: 12rpx;
+  left: 130rpx;
+}
+.vip_type .sign_in{
+  color: #fff;
+  background: #f0954f;
+  display: inline-block;
+  width: 140rpx;
+  padding: 8rpx 0;
+  border-radius: 50rpx;
+  text-align: center;
+  position: absolute;
+  top: 12rpx;
+  right: 10rpx;
+}
+.personal .user{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: absolute;
+  top: 135rpx;
+  left: 75rpx;
+}
+.personal .user image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-right: 45rpx;
+}
+.user .uname{
+  display: flex;
+  flex-direction: column;
+}
+.user text{
+  font-size: 15px;
+  color: #444;
+  display: inline-block;
+  padding: 8rpx 0 10rpx;
+}
+.personal .no{
+  font-size: 17px;
+  color: #f4c20b;
+  font-weight: 700;
+  position: absolute;
+  top: 305rpx;
+  left: 150rpx;
+}
+.no text{
+  text-shadow: #444 3rpx 3rpx 5rpx,#fff -3rpx -3rpx 5rpx; 
+}
+/* 积分 */
+.block{
+  margin-top: 10rpx;
+}
+.block .block_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx 15rpx;
+}
+.block_item text{
+  font-size: 15px;
+}
+.block_item .exchange{
+  font-size: 10px;
+  color: #fff;
+  background: #f0954f;
+  border-radius: 50rpx;
+  display: inline-block;
+  padding: 8rpx 25rpx;
+}
+.block .blank{
+  height: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  background: #F5F1F0;
+}
+/* 图标 */
+.block_item .icon{
+  display: flex;
+  align-items: center;
+}
+.block_item .icon::before{
+  display: inline-block;
+  background: url(http://127.0.0.1:3000/img/personal/block_icon.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}
+.block_item .pick_up::before{
+  background-position: 0rpx -32rpx;
+}
+.block_item .bonus::before{
+  background-position: 0rpx -64rpx;
+}
+.block_item .member::before{
+  background-position: 0rpx -96rpx;
+}
+.block_item .join_in::before{
+  background-position: 0rpx -128rpx;
+}
+.block_item .contact::before{
+  background-position: 0rpx -160rpx;
+}
+.block_item .about::before{
+  background-position: 0rpx -192rpx;
+}
+.block_item .right{
+  display: flex;
+  align-items: center;
+}
+.block_item .surplus{
+  font-size: 10px;
+  color: #DC2A2A;
+}

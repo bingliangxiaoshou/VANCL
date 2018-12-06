@@ -1,0 +1,18 @@
+/* pages/member/member.wxss */
+.member{
+  margin: 30rpx;
+}
+.member view{
+  font-weight: 700;
+  padding-bottom: 15rpx;
+}
+.member .member_item,.member text{
+  display: block;
+  font-size: 16px;
+}
+.member text{
+  padding-bottom: 30rpx;
+}
+.content{
+  padding-top: 50rpx;
+}

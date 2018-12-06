@@ -1,0 +1,14 @@
+/* pages/contact/contact.wxss */
+.block{
+  margin: 0 30rpx
+}
+.block_item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #bbb;
+  padding: 20rpx 10rpx;
+}
+.service{
+  font-size: 14px;
+}

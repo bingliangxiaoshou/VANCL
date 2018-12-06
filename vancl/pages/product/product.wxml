@@ -1,0 +1,28 @@
+<!--pages/product/product.wxml-->
+<view class='product'>
+  <image src='{{plist[id-1].img_url}}'></image>
+  <view class='sub'>
+    <text class='title'>{{plist[id-1].title}}</text>
+    <text class='details'>{{plist[id-1].details}}</text>
+    <text class='blank'></text>
+    <view class='block'>
+      <text>价格</text>
+      <view>
+        <text class='price'>{{plist[id-1].price}}</text>
+        <text class='vip'>{{plist[id-1].vip}}</text>
+        <text>（普通会员·全场9.8折）</text>
+      </view>
+    </view>
+    <view class='block'>
+      <text>优惠券</text>
+      <view>
+        <text class='coupon'>1张优惠券可用</text>
+        <text class='arrow'></text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='bottom'>
+  <text class='total'>¥{{plist[id-1].vip}}</text>
+  <text class='purchase' bindtap='payment'>立即购买</text>
+</view>

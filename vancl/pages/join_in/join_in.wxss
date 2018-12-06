@@ -1,0 +1,5 @@
+/* pages/join_in/join_in.wxss */
+.join{
+  width: 100%;
+  height: 1300rpx;
+}

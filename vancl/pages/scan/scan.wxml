@@ -1,0 +1,15 @@
+<!--pages/scan/scan.wxml-->
+<view class='scan'>
+  <view class='scan_item'>
+    <text>会员扫码支付</text>
+    <view class='payment' bindtap='scanCode1'>
+      <image src='http://127.0.0.1:3000/img/scan/payment.png'></image>
+    </view>
+  </view>
+  <view class='scan_item'>
+    <view class='sign_in' bindtap='scanCode2'>
+      <image src='http://127.0.0.1:3000/img/scan/Sign_in.png'></image>
+    </view>
+    <text>会员扫码签到</text>
+  </view>
+</view>

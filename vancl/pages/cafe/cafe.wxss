@@ -1,0 +1,42 @@
+/* pages/cafe/cafe.wxss */
+.cafe{
+  margin: 0 10rpx;
+  display: flex;
+  flex-direction: column;
+  background: url(http://wx4.sinaimg.cn/mw690/b192cd5egy1fxup9y8ebfj20t90gue82.jpg) no-repeat;
+  background-size: 100%;
+}
+.cafe .tips{
+  width: 45rpx;
+  height: 50rpx;
+  position: relative;
+  top: 20rpx;
+  left: 91%;
+}
+.cafe .user{
+  display: flex;
+  align-items: center;
+  margin: 35rpx 103rpx 25rpx;
+  border-bottom: 1rpx dashed #fff;
+  padding: 10rpx;
+}
+.cafe .user image{
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 50%;
+  margin-right: 56rpx;
+}
+.cafe .user text{
+  color: #fff;
+  font-size: 12px;
+}
+.cafe .my_cafe{
+  font-size: 14px;
+  text-align: center;
+  background: #fc0;
+  display: inline-block;
+  width: 285rpx;
+  padding: 16rpx 0;
+  border-radius: 100rpx;
+  margin: 45rpx 218rpx;
+}

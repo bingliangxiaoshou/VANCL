@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/scan/scan",
+    "pages/cafe/cafe",
+    "pages/personal/personal",
+    "pages/product/product",
+    "pages/coupon/coupon",
+    "pages/exchange/exchange",
+    "pages/recharge/recharge",
+    "pages/sign_in/sign_in",
+    "pages/integral/integral",
+    "pages/member/member",
+    "pages/join_in/join_in",
+    "pages/contact/contact",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "凡客咖啡",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#fc0",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_active.png"
+      },
+      {
+        "pagePath": "pages/scan/scan",
+        "text": "扫码",
+        "iconPath": "static/scan.png",
+        "selectedIconPath": "static/scan_active.png"
+      },
+      {
+        "pagePath": "pages/cafe/cafe",
+        "text": "咖啡馆",
+        "iconPath": "static/cafe.png",
+        "selectedIconPath": "static/cafe_active.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my_active.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+/* pages/product/product.wxss */
+/* 图片 */
+.product image{
+  width: 100%;
+  height: 600rpx;
+}
+.product .sub{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.product .title{
+  font-size: 18px;
+  margin-top: 30rpx;
+}
+.product .details{
+  font-size: 12px;
+  margin: 10rpx 0 30rpx 0;
+}
+.product .blank{
+  height: 10rpx;
+  background: #eee;
+}
+.product .block{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ddd;
+  margin: 0 20rpx;
+  padding: 20rpx 0;
+}
+.block text{
+  font-size: 14px;
+}
+.block view{
+  display: flex;
+  align-items: center;
+}
+.block .price{
+  text-decoration: line-through;
+  margin-right: 20rpx;
+}
+.block .vip,.block .coupon,.total{
+  color: red;
+}
+/* 购买 */
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom .total{
+  margin-left: 30rpx;
+}
+.bottom .purchase{
+  display: inline-block;
+  color: #fff;
+  padding: 20rpx 60rpx;
+  background: #FFD524;
+}

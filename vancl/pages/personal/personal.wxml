@@ -1,0 +1,69 @@
+<!--pages/personal/personal.wxml-->
+<view class='personal'>
+  <view class='personal_item'>
+    <view class='vip_type'>
+      <text class='vip'>{{userlist[0].vip_type}}</text>
+      <navigator class='sign_in' url="/pages/sign_in/sign_in">签到</navigator>
+    </view>
+    <view class='user'>
+      <image src='{{userlist[0].img_url}}'></image>
+      <view class='uname'>
+        <text>{{userlist[0].uname}}</text>
+        <text>会员成长值: {{userlist[0].value}}</text>
+      </view>
+    </view>
+    <view class='no'>
+      <text>NO:{{userlist[0].no}}</text>
+    </view>
+  </view>
+</view>
+<view class='block'>
+  <view class='block_item'>  
+    <text>累计积分: 10分</text>
+    <navigator class='exchange' url='/pages/integral/integral'>积分兑换</navigator>
+  </view>
+  <view class='block_item'> 
+    <text>账户余额: 0元</text>
+    <navigator class='exchange' url='/pages/recharge/recharge'>充值有礼</navigator>
+  </view>
+  <view class='blank'></view>
+  <!-- 优惠券 -->
+  <navigator class='block_item' url="/pages/coupon/coupon">
+    <text class='icon'>优惠券</text>
+    <view class='right'>
+      <text class='surplus'>一个优惠券</text>
+      <text class='arrow'></text>
+    </view>
+  </navigator>
+  <view class='block_item'>
+    <text class='icon pick_up'>取货码</text>
+    <view class='right'>
+      <text class='surplus'>0个取货码</text>
+      <text class='arrow'></text>
+    </view>
+  </view>
+  <view class='block_item'>
+    <text class='icon bonus'>奖金金额</text>
+    <view class='right'>
+      <text class='surplus'>0元</text>
+      <text class='arrow'></text>
+    </view>
+  </view>
+  <navigator class='block_item' url="/pages/member/member">
+    <text class='icon member'>会员权益</text>
+    <text class='arrow'></text>
+  </navigator>
+  <view class='blank'></view>
+  <navigator class='block_item' url='/pages/join_in/join_in'>
+    <text class='icon join_in'>招商加盟</text>
+    <text class='arrow'></text>
+  </navigator>
+  <navigator class='block_item' url='/pages/contact/contact'>
+    <text class='icon contact'>联系我们</text>
+    <text class='arrow'></text>
+  </navigator>
+  <navigator class='block_item' url="/pages/about/about">
+    <text class='icon about'>关于我们</text>
+    <text class='arrow'></text>
+  </navigator>
+</view>

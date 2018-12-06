@@ -1,0 +1,13 @@
+<!--pages/recharge/recharge.wxml-->
+<view class='recharge'>
+  <view class='head'>
+    <text>充值权益</text>
+    <text>充值记录</text>
+  </view>
+  <view class='money'>
+    <view bindtap='setPlain' data-num='1' class="{{plain==1?'bg':''}}">100元（享全场7.5折）</view>
+    <view bindtap='setPlain' data-num='2' class="{{plain==2?'bg':''}}">200元（享全场7折）</view>
+    <view bindtap='setPlain' data-num='3' class="{{plain==3?'bg':''}}">300元（享全场6.5折）</view>
+  </view>
+</view>
+<view class='recharge_button' bindtap='recharge'>立即充值</view>

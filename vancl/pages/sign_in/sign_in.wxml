@@ -1,0 +1,51 @@
+<!--pages/sign_in/sign_in.wxml-->
+<view class='sigin_in'>
+  <view class='in_draw'>
+    <text class='exchange'>兑换规则</text>
+    <text class='draw'>点击抽奖</text>
+  </view>
+  <view>
+    <image class='img' src='http://127.0.0.1:3000/img/bg_img/bg_tree.png'></image>
+  </view>
+  <view class='data'>
+    <view class='week'>
+      <text class='reward'>+5豆</text>
+      <text class='spot'></text>
+      <text class='sunday'>周一</text>
+    </view>
+    <view class='week'>
+      <text class='reward'>+5豆</text>
+      <text class='spot'></text>
+      <text class='sunday'>周二</text>
+    </view>
+    <view class='week'>
+      <text class='reward'>+5豆</text>
+      <text class='spot {{sign==1?"bg":""}}' data-id='1'></text>
+      <text class='sunday'>周三</text>
+    </view>
+    <view class='week'>
+      <text class='reward'>+5豆</text>
+      <text class='spot'></text>
+      <text class='sunday'>周四</text>
+    </view>
+    <view class='week'>
+      <text class='reward'>+5豆</text>
+      <text class='spot'></text>
+      <text class='sunday'>周五</text>
+    </view>
+    <view class='week'>
+      <text class='reward'>+5豆</text>
+      <text class='spot'></text>
+      <text class='sunday'>周六</text>
+    </view>
+    <view class='week'>
+      <text class='reward'>+5豆</text>
+      <text class='spot'></text>
+      <text class='sunday'>周日</text>
+    </view>
+  </view>
+  <view wx:if="{{signed==false}}" class='sign' bindtap='sign'>立即签到</view>
+  <view wx:if="{{signed==true}}" class='sign check'>今日已签到</view>
+</view>
+<!-- " -->
+<!--  " -->

@@ -1,0 +1,10 @@
+<!--pages/integral/integral.wxml-->
+<view class='integral'>
+  <text class='title'>积分兑换说明</text>
+  <text class='subtitle'>签到积分:</text>
+  <text class='content'>线上签到5积分;；线下签到10分；每人每天限一次签到机会。</text>
+  <text class='subtitle'>留言积分:</text>
+  <text class='content'>进入精选留言积5分,留言不限次数但积分限一次。(要求:留言不低于10个字、内容要和本公司产品有关的。)</text>
+  <text class='subtitle'>以上两种积分仅限兑换，用户只要没累计100积分（签到积分、留言积分）即可选择全场兑换1杯饮品</text>
+</view>
+<view class='exchange' bindtap='exchang'>兑换</view>

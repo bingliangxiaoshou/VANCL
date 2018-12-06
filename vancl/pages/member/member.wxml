@@ -1,0 +1,13 @@
+<!--pages/member/member.wxml-->
+<view class='member'>
+  <view class='explain'>会员权益说明</view>
+  <view class='member_item'>普通会员</view>
+  <text>首次关注凡客小程序即送普通会员卡(凭会员卡享全场9.8折) +首杯免费+第二杯半价。</text>
+  <view class='member_item'>黄金会员</view>
+  <text>满500成长值升级为金卡会员，每消费-元增加一点成长值，享全场9.5折。</text>
+  <view class='member_item'>铂金会员</view>
+  <text>满1000成长值升级为铂金卡会员，每消费一元增加一点成长值， 享全场9折。</text>
+  <view class='member_item'>钻石会员</view>
+  <text>满2000成长值升级为钻石会员，每消费-元增加一点成长值，享全场8.8折。</text>
+  <text class='content'>会员权益为有偿服务，普卡会员费每季5元;金卡会员费每季10元;铂金卡会员费每季15元;钻石卡会员费每季20元。活动推广期间所有会员费，限时免费。机器会员价，为抵券后价格!</text>
+</view>

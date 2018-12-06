@@ -1,0 +1,41 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<view class="slider">
+  <swiper autoplay interval="3500" indicator-dots circular>
+    <block wx:for="{{swipelist}}" wx:key="item.sid">
+      <swiper-item>
+        <image src="{{item.img_url}}" mode="aspectFill" lazy-load></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!-- 九宫格 4 -->
+<view class="index-nav">
+  <view class="nav-item" wx:for="{{ninelist}}" wx:key="item.nid" bindtap='nine'>
+    <image src="{{item.img_url}}" node="aspectFill" lazy-load bindtap="handleJumpNews" data-id="{{item.nid}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
+<!-- banner优惠券 -->
+<navigator class='banner' url="/pages/coupon/coupon">
+  <image src="http://wx2.sinaimg.cn/mw690/b192cd5egy1fxuquc6sbxj20s00bl7wh.jpg"></image>
+</navigator>
+<!-- 通知消息 -->
+<view class='notice'>
+  <swiper autoplay interval="3500" circular vertical>
+    <block wx:for="{{noticelist}}" wx:key="item.id">
+      <swiper-item>
+        <text>{{item.notice}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!-- 商品列表 -->
+<view class='product'>
+  <view class='product_item' data-id="{{item.id}}" bindtap='getProduct' wx:for="{{plist}}" wx:key="item.id">
+    <image src="{{item.img_url}}" mode="aspectFill" lazy-load></image>
+    <text class='title'>{{item.title}}</text>
+    <text class='price'>原价: ¥{{item.price}}</text>
+    <text class='vip'>会员折上折: ¥{{item.vip}}</text>
+  </view>
+</view>

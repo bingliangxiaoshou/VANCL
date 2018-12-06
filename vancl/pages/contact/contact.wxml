@@ -1,0 +1,11 @@
+<!--pages/contact/contact.wxml-->
+<view class='block'>
+  <view class='block_item' >
+    <text class='service'>在线客服</text>
+    <text class='arrow'></text>
+  </view>
+  <view class='block_item' bindtap='tel'>
+    <text class='service'>客服电话</text>
+    <text class='arrow'></text>
+  </view>
+</view>

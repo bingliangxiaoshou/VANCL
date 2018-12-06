@@ -1,0 +1,27 @@
+/* pages/integral/integral.wxss */
+.integral{
+  margin: 0 30rpx;
+}
+.integral text{
+  display: block;
+}
+.title{
+  text-align: center;
+  margin: 18rpx;
+  font-size: 18px;
+}
+.subtitle,.content{
+  font-size: 14px;
+  margin-bottom: 5rpx;
+}
+.content{
+  color: #bbb;
+}
+.exchange{
+  position: absolute;
+  bottom: 0;
+  background: #ffdd25;
+  width: 100%;
+  padding: 20rpx 46%;
+  color: #fff;
+  }

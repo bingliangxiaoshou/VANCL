@@ -1,0 +1,6 @@
+<!--pages/coupon/coupon.wxml-->
+<view class='coupon'>
+  <text class='main'>全场免费优惠券(358天有效)</text>
+  <text class='second'>凭此券可享受全场饮品免费</text>
+  <text class='finite'>有效至2019年11月24日</text>
+</view>

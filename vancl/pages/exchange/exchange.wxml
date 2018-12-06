@@ -1,0 +1,32 @@
+<!--pages/exchange/exchange.wxml-->
+<view class='exchange'>
+  <view class='top_ex'>
+    <text class='rule'>兑换规则</text>
+    <text class='share'>分享朋友圈</text>
+  </view>
+  <view class="page-body-wrapper">
+    <canvas canvas-id="canvas" class="canvas"></canvas>
+    <view class='step'>
+      <text class='today'>今日步数</text>
+      <text class='number'>1719</text>
+      <text class='draw'>步数抽奖</text>
+    </view>
+  </view>
+  <view class='prize'>奖品</view>
+  <!-- 通知消息 -->
+  <view class='notice'>
+    <swiper autoplay interval="2500" circular vertical>
+      <block wx:for="{{rosterlist}}" wx:key="item.id">
+        <swiper-item class="prize_item">
+          <text>恭喜{{item.uname}}抽中{{item.prize}}</text>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='prize_list'>
+    <view class='list_item' wx:for="{{prizelist}}" wx:key="item.id">
+      <image src='{{item.img_url}}'></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+</view>
